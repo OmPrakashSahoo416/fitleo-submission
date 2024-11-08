@@ -1,10 +1,12 @@
 import { Bar } from "react-chartjs-2";
 import { CategoryScale } from "chart.js";
 import Chart from "chart.js/auto";
+import Testing from "./Testing";
 Chart.register(CategoryScale);
 function App() {
   return (
     <>
+      <Testing></Testing>
       <div className="dashboardPage">
         <div className="dashBoardHeader sticky top-0 flex items-center justify-between p-5 bg-slate-100">
           <div className="headerLeft flex items-center space-x-16">
